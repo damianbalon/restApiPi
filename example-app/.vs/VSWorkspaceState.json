@@ -1,12 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\storage",
-    "\\storage\\app",
-    "\\storage\\app\\public",
-    "\\storage\\framework",
-    "\\storage\\logs"
+    "\\app",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\app\\Http\\Controllers\\Api",
+    "\\app\\Models",
+    "\\database",
+    "\\database\\migrations",
+    "\\database\\seeders",
+    "\\routes"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\routes\\api.php",
   "PreviewInSolutionExplorer": false
 }

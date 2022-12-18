@@ -22,19 +22,19 @@ class PeopleController extends Controller
 
     public function store(Request $request){
         $people = People::create($request->all());
-        return response()->json([$people], 200);
+        return response()->json([$people], 201);
 
     }
 
     public function update(Request $request, People $people): JsonResponse{
         $people->update($request->all());
-        return response()->json([$people], 200);
+        return response()->json([$people], 202);
 
     }
 
     public function delete(People $people)
         $people->delete();
-        return response()->json([$people], 200);
+        return response()->json([$people], 202);
 
     } 
 }
